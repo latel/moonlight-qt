@@ -48,7 +48,12 @@
 	<string>VERSION</string>
 	<key>CFBundleDisplayName</key>
 	<string>Moonlight</string>
-    <key>LSApplicationCategoryType</key>
+	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.games</string>
+	<key>LSEnvironment</key>
+	<dict>
+		<key>VT_FORCE_METAL</key>
+		<string>1</string>
+	</dict>
 </dict>
 </plist>
